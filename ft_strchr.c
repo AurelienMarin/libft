@@ -6,7 +6,7 @@
 /*   By: aumarin <aumarin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 00:51:02 by Aure              #+#    #+#             */
-/*   Updated: 2022/01/15 03:10:04 by aumarin          ###   ########.fr       */
+/*   Updated: 2022/10/28 00:59:49 by aumarin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,18 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	int	i;
+	size_t	i;
 
-	i = -1;
+	i = 0;
+	if (!s)
+		return (NULL);
 	if (c == 0)
 		return ((char *)((s + ft_strlen(s))));
-	while (s[++i])
+	while (s[i])
 	{
 		if ((unsigned char)s[i] == (unsigned char)c)
 			return ((char *)((s + i)));
+		i++;
 	}
 	return (NULL);
 }
