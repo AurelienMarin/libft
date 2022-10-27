@@ -6,7 +6,7 @@
 /*   By: aumarin <aumarin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/29 15:29:01 by aumarin           #+#    #+#             */
-/*   Updated: 2022/01/15 04:12:04 by aumarin          ###   ########.fr       */
+/*   Updated: 2022/10/27 23:08:39 by aumarin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ static char	*ft_dupword(char const *s, size_t start, size_t end)
 
 static char	**free_all(char **array, size_t j)
 {
-	while (j >= 0)
+	while ((int)j >= 0)
 	{
 		free(array[j]);
 		j--;
