@@ -6,7 +6,7 @@
 #    By: aumarin <aumarin@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/22 13:10:42 by aumarin           #+#    #+#              #
-#    Updated: 2022/10/27 23:07:47 by aumarin          ###   ########.fr        #
+#    Updated: 2022/12/06 08:51:28 by aumarin          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,7 +46,9 @@ SRC = ft_strlcat.c \
 	ft_isdigit.c \
 	ft_isprint.c \
 	get_next_line_utils.c \
-	get_next_line.c
+	get_next_line.c \
+	ft_min.c \
+	ft_max.c
 BONUS_SRC = ft_lstnew.c \
 	ft_lstsize.c \
 	ft_lstlast.c \
