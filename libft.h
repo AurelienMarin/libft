@@ -6,7 +6,11 @@
 /*   By: aumarin <aumarin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 13:00:17 by aumarin           #+#    #+#             */
+<<<<<<< HEAD
+/*   Updated: 2022/12/06 08:52:21 by aumarin          ###   ########.fr       */
+=======
 /*   Updated: 2022/11/04 01:32:46 by aumarin          ###   ########.fr       */
+>>>>>>> 9cd84548ed375addc38a11e6615b734c7bde108c
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,5 +69,11 @@ void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 char	*get_next_line(int fd);
+<<<<<<< HEAD
+int		ft_min(int a, int b);
+int		ft_max(int a, int b);
+
+=======
 int		ft_pow(int n, int pow);
+>>>>>>> 9cd84548ed375addc38a11e6615b734c7bde108c
 #endif
