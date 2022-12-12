@@ -6,7 +6,7 @@
 /*   By: aumarin <aumarin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 13:00:17 by aumarin           #+#    #+#             */
-/*   Updated: 2022/12/06 19:44:10 by aumarin          ###   ########.fr       */
+/*   Updated: 2022/12/12 03:24:03 by aumarin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,8 @@ void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dst_size);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
+long	ft_big_atoi(const char *str);
+
 typedef struct s_list
 {
 	void			*content;
