@@ -6,7 +6,7 @@
 /*   By: aumarin <aumarin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 13:00:17 by aumarin           #+#    #+#             */
-/*   Updated: 2022/12/12 03:24:03 by aumarin          ###   ########.fr       */
+/*   Updated: 2023/04/29 10:59:51 by aumarin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,4 +70,5 @@ char	*get_next_line(int fd);
 int		ft_min(int a, int b);
 int		ft_max(int a, int b);
 int		ft_pow(int n, int pow);
+char	*ft_strndup(const char *s1, size_t n);
 #endif
